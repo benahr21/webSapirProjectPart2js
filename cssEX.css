@@ -1,0 +1,138 @@
+body{
+  background-image: url("Pics/wall3.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+
+
+}
+.display-1{
+  background-color: rgba(255,255,255,0.7);
+  font-size: 65px;
+  color:black;
+}
+
+.guest{
+  text-align: center;
+  background-color: rgba(255,255,100,0.7);
+
+}
+.guestpic{
+  margin-top: 10px;
+  margin-bottom: 70px;
+
+}
+header{
+  margin-top: 20px;
+}
+header h1{
+  font-weight: bold;
+  text-align: center;
+  color: #EEE8AA;
+  font-family: sans-serif;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+
+}
+desc h3{
+  margin-top: 70px;
+  color: black;
+
+}
+desc p{
+  color: black;
+  font-weight: bold;
+
+}
+div.descbox{
+  border-style: groove;
+  background-color: rgba(255,255,255,0.76);
+  border-color: primary;
+  text-align: center;
+
+}
+
+div.agenda{
+  width: 10%;
+  margin-top: 50px;
+
+  margin-left: 500px;
+}
+ul.ulist{
+  margin-bottom: 30px;
+}
+div.agendaTitle{
+  text-align: center;
+  background-color: rgba(255,255,255,0.7);
+  border-color: primary;
+}
+div.center{
+  margin: auto;
+  width: 50%;
+  border: 3px black;
+  padding: 10px;
+}
+.center{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+
+}
+h3.title{
+  margin: auto;
+  width: 50%;
+  border: 3px black;
+  padding: 10px;
+}
+img.center{
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.picmarg{
+  margin-bottom: 20px;
+}
+social{
+  font-size: 20px;
+  color: black;
+  font-style: italic;
+  font-weight: bold;
+  border-color: white;
+  text-align: center;
+  border-style: double;
+  border-color: primary;
+  background-color: rgba(255,255,255,0.7);
+
+
+}
+.shuttle{
+  margin-top: 20px;
+  color:white;
+  background-image: url("Pics/wall6.png") ;
+  background-size: cover;
+
+  font-weight: bold;
+}
+.copy{
+  margin: auto;
+  color: white;
+  width: 50%;
+  border: 3px black;
+  padding: 10px;
+
+}
+.forms{
+  margin-top: 50px;
+  background-image: url("Pics/wall4.jpg") ;
+  color:pink;
+
+address.contact{
+  font-weight: bold;
+  font-size: 30px;
+}
