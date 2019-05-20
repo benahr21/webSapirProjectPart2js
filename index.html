@@ -1,50 +1,62 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>firstProject</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>firstProject</title>
+  <!--Bootstrap 4 import-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+  <link rel="stylesheet" href="cssEX.css">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-    <link rel="stylesheet" href="cssEX.css">
-  </head>
 
-  <body>
-      <header >
-          <div class="container">
-            <h1 class="display-1">Welcome To Sapir Tattoo Arts Convention!</h1>
+
+</head>
+
+<body onmouseleave="window.alert('Bye Bye')">
+
+
+<div id="proj">
+
+
+
+  <header > <!--Event Title-->
+    <div class="container">
+      <h1 class="display-1">Welcome To Sapir Tattoo Arts Convention!</h1>
+    </div>
+  </header>
+
+  <desc > <!--Description of event-->
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container" id="desc"> <!--Description Boxes-->
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="descbox" >
+            <h3>Where And When?</h3>
+            <br>
+            <p>Sapir Academic College, Sderot</p>
+            <p>10-11/04/2019</p>
+            <br>
           </div>
-      </header>
+        </div>
 
-      <desc>
-
-      <br>
-      <br>
-      <br>
-
-      <div class="container">
-          <div class="row">
-            <div class="col-sm-4">
-              <div class="descbox">
-                <h3>Where And When?</h3>
-                <br>
-                <p>Sapir Academic College, Sderot</p>
-                <p>10-11/04/2019</p>
-                <br>
-              </div>
-            </div>
-
-          <div class="col-sm-4">
-            <div class="descbox">
-              <h3>Show Times</h3>
-              <br>
-              <p>Friday: 2PM – Midnight</p>
-              <p>Saturday: 11.00 – Midnight</p>
-              <br>
-            </div>
+        <div class="col-sm-4">
+          <div class="descbox">
+            <h3>Show Times</h3>
+            <br>
+            <p>Friday: 2PM – Midnight</p>
+            <p>Saturday: 11.00 – Midnight</p>
+            <br>
           </div>
+        </div>
 
         <div class="col-sm-4">
           <div class="descbox">
@@ -55,18 +67,18 @@
             <br>
           </div>
 
+        </div>
       </div>
-     </div>
-   </div>
+    </div>
 
 
 
-  <div class="row">
-    <div class="center">
-      <br>
-      <div class="container  agendaTitle">
+    <div class="row" id="desc1">
+      <div class="center">
+        <br>
+        <div class="container  agendaTitle">
           <b>Event's Agenda</b>
-      </div>
+        </div>
 
         <ul class="  list-group ulist">
 
@@ -75,16 +87,17 @@
           <li class="list-group-item-danger">LIVE BODY ART MODIFICATION</li>
 
         </ul>
+        <br>
 
 
       </div>
 
-  </div>
+    </div>
 
-    <div class="container">
+    <div class="container" id="desc2"> <!--Another Description Boxes-->
       <div class="row">
         <div class="col-sm-4">
-          <div class="descbox">
+          <div id="check"  class="descbox" onmouseover="hover()">
             <h3>20:00 - 22:00</h3>
             <br>
             <p>Open Exhibition & Time to register</p>
@@ -94,265 +107,295 @@
 
         </div>
 
-      <div class="col-sm-4">
-        <div class="descbox">
-          <h3>22:00 - 23:00</h3>
-          <br>
-          <p>2019 Winners' declaration</p>
-          <p>DJ Yuval Goes Up</p>
-          <br>
+        <div class="col-sm-4">
+          <div class="descbox" onmouseover="hover()">
+            <h3>22:00 - 23:00</h3>
+            <br>
+            <p>2019 Winners' declaration</p>
+            <p>DJ Yuval Goes Up</p>
+            <br>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="descbox" onmouseover="hover()">
+            <h3>23:00-06:00</h3>
+            <br>
+            <p>Crazy Party In Builduing 4</p>
+            <p>Few Tatoos Stations Around</p>
+            <br>
+          </div>
+
+        </div>
       </div>
     </div>
-
-      <div class="col-sm-4">
-        <div class="descbox">
-          <h3>23:00-06:00</h3>
-          <br>
-          <p>Crazy Party In Builduing 4</p>
-          <p>Few Tatoos Stations Around</p>
-          <br>
-    </div>
-
-  </div>
- </div>
-</div>
-<br>
-<br>
+    <br>
+    <br>
 
 
-    <div class="container guestpic">
+    <div class="container guestpic center"> <!--Imported Title for Guests-->
       <div class="row">
         <div class="col-sm-12 ">
-          <img class="center   img-rounded" src="Pics\guests.jpg" alt="guestpic" width="500px" height="90px">
+          <h2 id="guestTitle" >Some Of Our Special Guests:</h2>
+          <br><br>
         </div>
 
       </div>
 
     </div>
 
-
-
-    <div class="container">
+    <div class="container"> <!--guests cards-->
       <div class="row">
         <div class="col-sm-4">
-          <div class="card" style="width:300px">
+          <div class="card" >
             <div class="card-body guest">
               <h4 class="card-title ">Rotem Mogev</h4>
               <p class="card-text">The Israeli Angel With Some Nice Animal Tattoos, Check her profile!</p>
-              <a href="http://wwww.instagram.com" class="btn btn-primary">See Profile</a>
+              <a href="http://wwww.instagram.com" class="btn "><strong>See Profile</strong></a>
             </div>
-            <img class="card-img-bottom" src="Pics\roro.jpg" alt="Card image" style="width:100%">
+            <img class="card-img-bottom gp" height="300px" width="120px" src="Pics\roro.jpg" alt="Card image" style="width:100%">
           </div>
-    </div>
-
-        <div class="col-sm-4">
-          <div class="card" style="width:300px">
-            <div class="card-body guest">
-            <h4 class="card-title">Jonatan Åhr</h4>
-            <p class="card-text primary">The Swedish Genious, Check his profile!</p>
-            <a href="http://wwww.instagram.com" class="btn btn-primary">See Profile</a>
-          </div>
-            <img class="card-img-top" src="Pics\yoz.jpg" alt="Card image" style="width:100%">
         </div>
 
-    </div>
+        <div class="col-sm-4">
+          <div class="card" >
+            <div class="card-body guest">
+              <h4 class="card-title">Jonatan Åhr</h4>
+              <p class="card-text primary">The Swedish Genious Is Here!, Check his profile!</p>
+              <a href="http://wwww.instagram.com" class="btn ">  <strong> See Profile</strong></a>
+            </div>
+            <img class="card-img-top gp" height="300px" width="120px" src="Pics\yoz.jpg" alt="Card image" style="width:100%">
+          </div>
+
+        </div>
 
         <div class="col-sm-4">
-          <div class="card" style="width:300px">
+          <div class="card" >
             <div class="card-body guest">
-            <h4 class="card-title ">Super Mario Mandzukic</h4>
-            <p class="card-text">The Croatian Giant Is On Fire!, Check his profile!</p>
-            <a href="http://wwww.instagram.com" class="btn btn-primary">See Profile</a>
+              <h4 class="card-title ">Super Mario Mandzukic</h4>
+              <p class="card-text">The Croatian Giant Is On Fire!, Check his profile!</p>
+              <a href="http://wwww.instagram.com" class="btn "><strong>See Profile</strong></a>
+            </div>
+            <img class="card-img-bottom gp" height="300px" width="120px" src="Pics\superMario.jpg" alt="Card image" style="width:100%">
           </div>
-            <img class="card-img-bottom" src="Pics\superMario.jpg" alt="Card image" style="width:100%">
-    </div>
+
+        </div>
+
+      </div>
 
     </div>
 
+    <div class="container">  <!--Imported picture for gallery-->
+      <div class="row">
+        <img class="center img-thumbnail"  src="Pics/gallery.jpg" alt="Gallery">
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
 
+
+
+
+    <!-- Slideshow container -->
+
+
+  <div class="slideshow-container center" >
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img  class="picTry  img-thumbnail"   src="Pics\tat6.jpg" >
+
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img class="picTry img-thumbnail" src="Pics\tat7.jpg" >
+
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext ">3 / 3</div>
+      <img class="picTry img-thumbnail" src="Pics\tat8.jpg" >
+
+    </div>
+
+    <a class="  prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
 
   </div>
+  <br>
 
-</div>
 
-    <div class="container">
-      <div class="row">
-          <img class="center img-thumbnail"  src="C:\Users\Benahr21\Desktop\firstProject\Pics\gallery.jpg" alt="Gallery">
-          <br>
-          <br>
-          <br>
-      </div>
-    </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3 picmarg">
-          <img src="Pics/tat1.jpg" alt="tattoo" class="img-thumbnail">
-        </div>
-        <div class="col-sm-3 picmarg">
-          <img src="Pics/tat2.jpg" alt="tattoo" width="240px" height="240px" class="img-thumbnail">
-        </div>
-        <div class="col-sm-3 picmarg">
-          <img src="Pics/tat0.jpg" alt="tattoo" width="240px" height="240px" class="img-thumbnail">
-        </div>
-        <div class="col-sm-3 picmarg">
-          <img src="Pics/tat3.jpg" alt="tattoo" width="240px" height="240px" class="img-thumbnail">
-        </div>
 
-      </div>
 
-      <div class="row">
-        <div class="col-sm-3 picmarg">
-          <img src="Pics/tat4.jpg" alt="tattoo" width="240px" height="240px" class="img-thumbnail">
-        </div>
-        <div class="col-sm-3 picmarg">
-          <img src="Pics/tat5.jpg" alt="tattoo" width="240px" height="240px" class="img-thumbnail">
-        </div>
-        <div class="col-sm-3 picmarg">
-          <img src="Pics/tat6.jpg" alt="tattoo" width="240px" height="240px" class="img-thumbnail">
-        </div>
-        <div class="col-sm-3 picmarg">
-          <img src="Pics/tat7.jpg" alt="tattoo" width="240px" height="240px" class="img-thumbnail">
 
-        </div>
 
-      </div>
 
-      <div class="row">
-        <div class="col-sm-3 picmarg">
-          <img src="Pics/tat8.jpg" alt="tattoo" width="240px" height="240px" class="img-thumbnail">
-        </div>
-        <div class="col-sm-3 picmarg">
-          <img src="Pics/tat9.jpg" alt="tattoo" width="240px" height="240px" class="img-thumbnail">
-        </div>
-        <div class="col-sm-3 picmarg">
-          <img src="Pics/tat10.jpg" alt="tattoo" width="240px" height="240px" class="img-thumbnail">
-        </div>
-        <div class="col-sm-3 picmarg">
-          <img src="Pics/tat11.jpg" alt="tattoo" width="240px" height="240px" class="img-thumbnail">
 
-        </div>
-
+    <div class="container-fluid center"> <!--Location of event from googlemaps-->
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.537784604972!2d34.596711685240464!3d31.509386381373304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502814a96e693ed%3A0xd2f92addc3834b6c!2z15TXnteb15zXnNeUINeU15DXp9eT157XmdeqINeh16TXmdeo!5e0!3m2!1siw!2sil!4v1554638684319!5m2!1siw!2sil" width="600" height="450" frameborder="0"  allowfullscreen></iframe>
       </div>
 
     </div>
 
-      <div class="container-fluid center">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.537784604972!2d34.596711685240464!3d31.509386381373304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502814a96e693ed%3A0xd2f92addc3834b6c!2z15TXnteb15zXnNeUINeU15DXp9eT157XmdeqINeh16TXmdeo!5e0!3m2!1siw!2sil!4v1554638684319!5m2!1siw!2sil" width="600" height="450" frameborder="0"  allowfullscreen></iframe>
-        </div>
-
+    <div class="container center"> <!--Social Netork Logos-->
+      <div class="row">
+        <a href="http://wwww.facebook.com">
+          <img src="Pics\fb.png" alt="bla" width="75px" height="75px">
+        </a>
+        <a href="http://www.google.co.il">
+          <img src="Pics\goo.png" alt="bla" width="75px" height="75px">
+        </a>
+        <a href="http://www.instagram.com">
+          <img src="Pics\inst.jpg" alt="bla" width="75px" height="75px">
+        </a>
       </div>
 
-      <div class="container center">
-        <div class="row">
-          <a href="http://wwww.facebook.com">
-            <img src="Pics\fb.png" alt="bla" width="75px" height="75px">
-          </a>
-          <a href="http://www.google.co.il">
-            <img src="Pics\goo.png" alt="bla" width="75px" height="75px">
-          </a>
-          <a href="http://www.instagram.com">
-            <img src="Pics\inst.jpg" alt="bla" width="75px" height="75px">
-          </a>
-        </div>
-
-        <div class="row">
+      <div class="row"> <!--Title under the logos-->
         <social>Make Sure You Attended To The Event In The Social Networks!</social>
+      </div>
+
+    </div>
+
+  </desc>
+
+  <div class="container">
+    <table class="table table-bordered shuttle" id="myTable">
+      <thead>
+      <tr>
+        <th>City</th>
+        <th>Time of Shuttle</th>
+        <th>Name Of Driver</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Beer Sheva</td>
+        <td>19:00</td>
+        <td>Ida</td>
+      </tr>
+      <tr>
+        <td>Tel Aviv</td>
+        <td>18:45</td>
+        <td>Amir Sapir</td>
+      </tr>
+      <tr>
+        <td>Haifa</td>
+        <td>18:00</td>
+        <td>Hodaya</td>
+      </tr>
+      </tbody>
+    </table>
+
+  </div>
+
+
+  <div id="myForm" class="container forms">
+    <br>
+    <h3 id="formTitle">Let us know!</h3>
+    <form action="/action_page.php">
+      <div class="form-group">
+        <label >Email:</label>
+        <input type="text" class="form-control" id="emailForm" placeholder="Enter email" name="email" onmouseleave="mailCheck(this)" >
+      </div>
+      <div class="form-group">
+        <label >Full Name</label>
+        <input type="text" class="form-control" name="name" value="" onkeyup="allLetter(this)">
+      </div>
+      <div class="form-group">
+        <label >Number Of Guests</label>
+        <input type="text" class="form-control" name="numOfGuests" value="" onkeyup="allNumeric(this)" onmouseleave="checkGuests(this)">
+      </div>
+      <div class="form-group">
+
+        <div class="form-group">
+          <label >Additional Comments</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" onkeydown="countText(this,document.getElementById('counter'),200)"></textarea>
+          <input type="text" name="counter" id="counter" size="3" maxlength="3" value="200" readonly>
         </div>
 
-      </div>
 
-    </desc>
 
-    <div class="container">
-      <table class="table table-bordered shuttle">
-        <thead>
-          <tr>
-            <th>City</th>
-            <th>Time of Shuttle</th>
-            <th>Name Of Driver</th>
-          </tr>
-      </thead>
-        <tbody>
-          <tr>
-            <td>Beer Sheva</td>
-            <td>19:00</td>
-            <td>Ida</td>
-      </tr>
-        <tr>
-            <td>Tel Aviv</td>
-            <td>18:45</td>
-            <td>Amir Sapir</td>
-      </tr>
-        <tr>
-            <td>Haifa</td>
-            <td>18:00</td>
-            <td>Hodaya</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-    </div>
-
-    <div class="container forms">
-      <br>
-      <form action="/action_page.php">
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-    </div>
-        <div class="form-group">
-          <label for="name">Full Name</label>
-          <input type="text" class="form-control" name="name" value="">
-    </div>
-        <div class="form-group">
-          <label for="name">Number Of Guests</label>
-          <input type="text" class="form-control" name="numOfGuests" value="">
-    </div>
-        <div class="form-group">
-          <label for="name">Additional Comments</label>
-          <input type="text" class="form-control" name="name" value="" rows="40" cols="30">
-    </div>
-        <div class="form-group">
-          <label for="name">Full Name</label>
-          <input type="text" class="form-control" name="name" value="">
-    </div>
-        <div class="form-group">
-          Arrival Method <br>
-          <input type="radio" name="" value="">  Shuttle  <br>
-          <input type="radio" name="radio" value="PrivateCar">Private Car
-    </div>
-      <button type="submit center" class="btn btn-primary">Submit</button>
-  </form>
-</div>
-
-<br>
-<br>
-<br>
-
-<footer>
-
-  <div class="container-fluid center">
-    <div class="row">
-      <div class="col-sm-6">
-        <address >
-          <a href="mailto:benahr36@gmail.com?subject=Tattoo Event&body=Hi I%20have%20few%20questions:"><strong>Contact Us</strong></a>
-        </address>
 
       </div>
-      <div class="col-sm-6">
-        <span class="copy"><strong>All Right Reserved To Benjamin &copy</strong></span>
+      <div class="form-group">
+        <label >Phone Number:</label>
+        <input id="phone" type="text" class="form-control" name="name" value="" onmouseleave="checkDigits()" onkeyup="allNumeric(this)" >
       </div>
-    </div>
+      <div class="form-group">
+        Arrival Method <br>
+        <input type="radio" name="" value="">  Shuttle  <br>
+        <input type="radio" name="radio" value="PrivateCar">Private Car
+      </div>
+      <button type="submit center" id="submitButt" class="btn ">Submit</button>
+    </form>
   </div>
-</footer>
+
+  <br>
+  <br>
+  <br>
+
+
+
+  <!-- Trigger/Open The Modal -->
+  <button id="myBtn">Contact</button>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content" id="modalContent">
+      <span class="close">&times;</span>
+      <p class="center" id="modalTitle">Click the 'Contact Us' Button for mail</p>
+      <a id="mailBtn" href="mailto:someone@yoursite.com">Contact Us</a>
+    </div>
+
+  </div>
+
+  <div id="rights">
+    All Rights Reserved Benjamin Åhr&copy
+  </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+<script src="Scripts.js"></script>
 
 </body>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-  </body>
+
+
+
+
+
+
+
+
+
+
+
 </html>
